@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - 蔡瑋恩</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f0ec; /* 大地色背景 */
+            color: #4b3f31; /* 大地色文字 */
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff; /* 白色背景 */
+        }
+        .left-section {
+            width: 30%;
+            padding: 20px;
+            background-color: #d9c7a1; /* 校徽區背景色 */
+            text-align: center;
+        }
+        .left-section img {
+            border-radius: 8px;
+            margin-bottom: 20px;
+            max-width: 80%;
+        }
+        .left-section h1 {
+            font-size: 1.8em;
+            color: #3b2f24;
+        }
+        .right-section {
+            width: 70%;
+            padding: 20px;
+            background-color: #f7f4ef; /* 淡大地色背景 */
+        }
+        .section-title {
+            background-color: #c4a77d;
+            color: white;
+            font-size: 1.2em;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        .info-item {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .info-item ul {
+            list-style: none;
+            padding: 0;
+        }
+        .info-item ul li {
+            margin: 5px 0;
+        }
+        .info-item ul li a {
+            text-decoration: none;
+            color: #4b3f31;
+        }
+        .info-item ul li a:hover {
+            text-decoration: underline;
+        }
+        .music-links {
+            display: flex;
+            justify-content: space-around;
+            margin: 15px 0;
+        }
+        .music-links a {
+            text-decoration: none;
+            color: #4b3f31;
+            text-align: center;
+        }
+        .music-links img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+        .contact-section {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-section img {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 左邊區域 -->
+        <div class="left-section">
+            <img src="profile.jpg" alt="Profile Picture">
+            <h1>蔡瑋恩</h1>
+            <img src="logo.png" alt="National Chengchi University Logo">
+        </div>
+
+        <!-- 右邊區域 -->
+        <div class="right-section">
+            <!-- 學校和科系 -->
+            <div class="info-item">
+                <div class="section-title">學校資訊</div>
+                <p>學校：政治大學</p>
+                <p>科系：資訊管理學系</p>
+                <p>年級：大一</p>
+            </div>
+
+            <!-- 學習歷程 -->
+            <div class="info-item">
+                <div class="section-title">學習歷程</div>
+                <ul>
+                    <li>Java 基礎</li>
+                    <li>HTML 入門</li>
+                </ul>
+                <p>修課紀錄：</p>
+                <ul>
+                    <li>計算機概論</li>
+                    <li>程式設計入門</li>
+                </ul>
+            </div>
+
+            <!-- 作品集 -->
+            <div class="info-item">
+                <div class="section-title">作品集</div>
+                <ul>
+                    <li><a href="#">作業 1</a></li>
+                    <li><a href="#">作業 2</a></li>
+                    <li><a href="#">作業 3</a></li>
+                </ul>
+            </div>
+
+            <!-- 音樂分享 -->
+            <div class="info-item">
+                <div class="section-title">音樂分享</div>
+                <div class="music-links">
+                    <a href="https://youtu.be/4qC_yjQHh44?si=wHypbydld1ACmzfu">
+                        <img src="spotify-icon.png" alt="Music Icon" width="60">
+                        <br>Too sad to dance
+                    </a>
+                    <a href="https://youtu.be/UNo0TG9LwwI?si=UGF1qkttRThcrgKC">
+                        <img src="spotify-icon.png" alt="Music Icon" width="60">
+                        <br>Standing next to you
+                    </a>
+                    <a href="https://youtu.be/BksBNbTIoPE?si=Nz7yzSkDDZZUO7DE">
+                        <img src="spotify-icon.png" alt="Music Icon" width="60">
+                        <br>Still with you
+                    </a>
+                </div>
+            </div>
+
+            <!-- 聯絡方式 -->
+            <div class="contact-section">
+                <div class="section-title">聯絡方式</div>
+                聯絡我: <a href="mailto:113306047@nccu.edu.tw">113306047@nccu.edu.tw</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
